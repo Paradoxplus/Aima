@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "xicorpractice",
+  "version": "${version}",
+  "name": "Xicor Practice",
+  "description": "Mobile-friendly PvP practice overlays and timing feedback.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.xicor.practice.XicorPracticeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
